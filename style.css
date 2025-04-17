@@ -11,4 +11,20 @@
     Text Domain: ds-theme
 
 */
- 
+
+#compname{
+    text-align: center;
+    font-size: 60px;
+    background: -webkit-linear-gradient(bottom,rgba(22, 84, 166, 1) 0%, rgba(195, 235, 216, 1) 46%, rgba(103, 138, 184, 1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.cardgrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
