@@ -1,5 +1,5 @@
 <?php  get_header();?>
-<nav class="navbar navbar-expand-lg " style="background-color:	#38658b;" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg " style="background-color:	#251858;" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">ChainPulse</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,20 +11,20 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Crypto News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Writers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link disabled" aria-disabled="true"></a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<h1 id='compname'>ChainPulse</h1>
+<h1 id='compname'>Crypto News</h1>
 <br><br>
 
 <div class='cardgrid'>
@@ -47,7 +47,7 @@
   </div>
 
   <div class="card" style="width: 21rem;">
-    <img src="<?php echo get_template_directory_uri();?> /img/bitcoin.jpg" class="card-img-top" >
+    <img src="<?php echo get_template_directory_uri();?> /img/eth1.jpg" class="card-img-top" >
     <div class="card-body">
       <h5 class="card-title">Ethereum fees drop to a 5-year low </h5>
       <p class="card-text">Transaction costs on the Ethereum network have dropped to the lowest level in five years</p>
@@ -56,7 +56,7 @@
   </div>
 
   <div class="card" style="width: 21rem;">
-    <img src="<?php echo get_template_directory_uri();?> /img/eth1.jpg" class="card-img-top" >
+    <img src="<?php echo get_template_directory_uri();?> /img/bit2.jpg" class="card-img-top" >
     <div class="card-body">
       <h5 class="card-title">Bitcoin Trades Around $84,000 as Crypto Stocks Slip</h5>
       <p class="card-text">The leading currency recently traded around $84,000, rising back above the prices below $77,000 seen late last week</p>
